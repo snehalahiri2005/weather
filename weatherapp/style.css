@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: white;
+  color: #0072ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#weather-icon {
+  display: none;
+  width: 100px;
+}
+
+.hourly-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.hourly-item img {
+  width: 50px;
+}
+
+#hourly-forecast {
+  margin-top: 20px;
+}
